@@ -1,0 +1,20 @@
+<template>
+    <div class="box has-text-weight-bold">
+        <slot></slot>
+        <!-- esse slot traz o que tem dentro do componente -->
+    </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    name: 'BoxTarefa'
+})
+</script>
+
+<style scoped>
+.box {
+    background: #FAF0CA;
+}
+</style>
